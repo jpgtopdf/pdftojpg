@@ -1,0 +1,325 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<!-- Mirrored from pdftojpg.me/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Mar 2022 19:07:39 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<title>Convert PDF to JPG in High Quality Online</title>
+<meta name="description" content="The best PDF to JPG converter ever, letting you convert PDF to JPG images in high resolution online, the image width and background color are fully customizable, making it easy to view or manage your PDFs on any computer or mobile phone."> 
+<meta name="keywords" content="pdf to jpg, pdf to jpeg, convert pdf to jpg, pdf to jpg converter, pdf converter, split pdf, pdf splitter, pdf to image" >
+<link href="pdftojpg77ae.css?ver=2" rel="stylesheet" type="text/css" />
+<link href="colpick.css" rel="stylesheet" type="text/css"/>
+
+<script type="text/javascript" src="js/upload/plupload.full.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/colpick.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('#pick_color_div').colpick();
+});	
+</script>
+</head>
+<body>
+	
+
+<div id="topbar0"></div>
+<!--<div id="topbar2"></div>-->
+
+<div id="Logo">
+	<div id="LogoCenter">
+		<div id="LogoPic">
+			<a href="index.html" title="pdf to jpg" target="_blank"><img src="images/logo3.png" border="0" width="225" height="55" alt="convert pdf to jpg"></a>
+		</div>
+	</div>
+</div>
+
+<div id="Intro">	
+	<div id="IntroTXT">
+		<p>The best PDF to JPG converter online, allows to convert PDF to high quality JPEG in exact DPI( 6 to 2400 ) or dimensions. PDFtoJPG.me is absolutely free, no need to register or download any software. </p>
+		
+	</div>	
+</div>
+
+
+
+<div id="root_parent">
+		<div id="root">
+			
+			
+	
+	<!--
+			<div class="LineTitle">
+				1. Set the prefix of the output filename( optional )
+			</div>						
+			
+			<div class="LineH40PX">
+				If you set the prefix as "MyFile", the output filename will be MyFile-001.jpg, MyFile-002.jpg, MyFile-003.jpg, etc.
+			</div>			
+	
+			<div class="LineH40PX">
+				<div class="LabelsW450PX">
+					<div class="LabelsW450PX_Left">Prefix: </div>
+					<div class="LabelsW450PX_Center">
+						<label>
+							<input type="text" class="txt2" id="prefix_txt" value=""> ( Accept numbers and English letters only. Leave it blank to use "PDFtoJPG.me" as the prefix )
+						</label>		
+					</div>			
+				</div>			
+			</div>	
+			
+			<div class="LineH40PX">
+				Once you begin to upload the pdf, the prefix can't be changed.
+			</div>							
+			
+		-->	
+			
+			<div class="LineTitle">
+				1. Upload a pdf file
+			</div>
+	
+			<div class="LineH40PX">
+				Select a pdf file to convert it( maximum size: 50 MB, 3000 pages ):
+			</div>		
+			
+			<div class="LineBigBtn">
+					<div class="button big" id="browse" href="javascript:;">	Upload a file	</div>
+			</div>	
+			
+			<div class="LineH40PX">
+					<div id="filelist"> You files will be removed automatically after a few hours.</div>
+			</div>	
+			
+		
+				
+		
+		
+			<div class="LineTitle">
+				2. Specify the page range to convert( optional )
+			</div>			
+			
+			<div class="LineH40PX">
+				Please fill in the page range if you don't need to convert all pdf pages, you can convert multiple ranges of pages separately.
+			</div>			
+		
+			<div class="LineH40PX">
+				<div class="LabelsW450PX">
+					<div class="LabelsW450PX_Left">Page range: </div>
+					<div class="LabelsW450PX_Center">
+						<label>
+							<input type="text" class="txt3" id="page_range_1" value="1"> to
+							<input type="text" class="txt3" id="page_range_2" value="1000">( Leave them unchanged will convert all pages )
+						</label>		
+					</div>			
+				</div>			
+			</div>			
+			
+			
+			<div class="LineTitle">
+				3. Set the width of output images
+			</div>				
+			
+			
+			<div class="LineH40PX">
+				<div class="LabelsW450PX">
+					Convert your PDF to: &nbsp;
+					<label  class="radio_label"><INPUT TYPE="radio" class="radiobtn" name="img_width_radio" id="fixed_width" checked=true onclick="OnSelectionType(1);">Fixed Image Width</label>
+					<label  class="radio_label"><INPUT TYPE="radio" class="radiobtn" name="img_width_radio" id="fixed_dpi" onclick="OnSelectionType(2);">Fixed DPI( dots per inch )</label>
+				</div>			
+			</div>			
+		
+	<div id="Option1">		
+			<div class="LineH40PX2">
+				PDFtoJPG.me provides precise control over the output size of your images, you can specify the width to the exact size, dimension or pixels and keep proportion & ratio, making them fit the screen of your device( e.g. 1920 x 1080 px, 1680 x 1050 px, 1366 x 768 px, 1440 x 900 px )
+			</div>			
+			
+			<div class="LineH40PX">
+				<div class="LabelsW450PX">
+					<div class="LabelsW450PX_Left">Width: </div>
+					<div class="LabelsW450PX_Center">
+
+						<input type="text" class="txt3" id="width_txt" value="1920"> pixels( If the width is larger than 3000 pixels, you can convert up to 100 pages at a time )
+					
+					</div>			
+				</div>			
+			</div>				
+			
+	</div>		
+	<div id="Option2">		
+			<div class="LineH40PX2">
+				Please notice that a higher DPI doesn't mean high clarity of text, when I view an image in 300 DPI on the screen with 2560x1440 pixels, it looks very clear, however, when I view the same image on the screen with 1366x768 pixels, the image is too large and I have to zoom out it to 50 percent, making the text looks very blurry, the same page in 180 DPI looks perfect on a screen with 1366x768 pixels. 
+			</div>				
+				
+			<div class="LineH40PX2">
+				Specifying a higher DPI( dots per inch ) will occupy more disk space and take more time to download.
+			</div>	
+						
+			<div id="example_pages">
+			</div>				
+							
+			
+			<div class="LineH40PX">
+				<div class="LabelsW450PX">
+					<div class="LabelsW450PX_Left">DPI: </div>
+					<div class="LabelsW450PX_Center">
+
+						<input type="text" class="txt3" id="dpi_txt" value="300">( 6 to 2400. If the DPI is larger than 300, you can convert up to 100 pages at a time )
+					
+					</div>			
+				</div>			
+			</div>			
+			
+	</div>		
+				
+				
+				
+			<div class="LineTitle">
+				4. Set the background color of output images( optional )
+			</div>				
+			
+			<div class="LineH40PX">
+					<div id="pick_color_div"></div>
+			</div>			
+			
+			<div class="LineTitle">
+				5. Convert and download your JPEG images
+			</div>				
+			
+			<div class="LineH40PX2">
+				You can crop, resize and compress your JPEG images at ResizeImage.net.
+			</div>			
+					
+			<div class="LineBigBtn" id="ConvertDIV">
+				<div class="button big" id="doConvert" onclick="DoConvert();"> Convert Now </div>
+				<div class="button big" id="btnMP3" onclick="newwin('https://hnet.com/pdf-to-jpg/');"> PDF to JPG </div>
+				<div class="button big" id="btnResize" onclick="newwin('https://hnet.com/pdf-to-png/');"> PDF to PNG </div>
+				<div class="button big" id="btnCompress" onclick="newwin('https://www.adobe.com/acrobat/online/merge-pdf.html');"> Merge PDF </div>
+				
+				<div class="button big" id="ConvertNew" onclick="newwin('https://www.freepdfconvert.com/pdf-to-word');"> PDF to Word </div>
+				
+			</div>
+			
+			
+			
+				<div id="output_file_info">
+					Press the "Convert Now" button to convert your pdf document to JPEG images.
+				</div>
+			
+			
+		</div>
+</div>
+
+
+
+<div id="btm_text">
+<div id="btm_child">	
+	
+	<h2>Is PDFtoJPG.me a random pdf to jpg conversion site?</h2>
+	
+	<p>
+		Definitely not! Yes, you can find hundreds of sites that enables to convert PDF to JPG online, but we offer the best user experience.
+	</p>	
+	
+	<h2>Why do your domain name has a .ME extension?</h2>
+	
+	<p>
+		We know that the .ME extension is not as popular as .COM and .NET, but the domain names with those extensions have already been registered. Domain names with .ME extension is becoming more and more popular nowadays, such as GIFMaker.me( the best gif making site ), Line.me( one of the most popular messaging app with over 500 million users ) and About.me.	
+	</p>
+	
+	<h2>Why converting PDF to JPG is a good idea?</h2>
+	
+	<p>
+		Portable Document Format (PDF) is a popular file format for office documents which was developed by Adobe, representing a document in PDF format will make it looks more professional and official. Converting documents to PDF format is very easy, you can turn your Word, Excel, PowerPoint, OneNote, Visio, HTML, TXT or any other documents into PDF format with freeware like doPDF, Bullzip PDF Printer, CutePDF Writer, etc.
+	</p>
+	
+	<p>
+		However, to view, edit, convert or manage PDF files, you'll have to install special software designed for these purposes, many of them are not free, for example, Adobe Acrobat Pro DC will cost you more than 400 dollars.
+	</p>	
+	
+	<p>
+		In addition, viewing pdf files will occupy much memory, rendering the text with different fonts with anti-aliasing enabled and displaying the pdf file on your device may even cause your system frozen, or make your device( such as iPhone, iPad, Samsung Galaxy S6 ) too hot.
+	</p>
+	
+	<p>
+		Some pdf viewing software and app is not secure, for instance, people have found more than 50 security holes in Adobe reader. Some malicious PDF files even contain malware which may infect your system. When you receive a pdf file with Email, WhatsApp, Facebook Messenger, Snapchat, Line, Telegram, Skype, ICQ,  or other software, download a pdf file from the Internet( including torrent sites, online chat rooms ), you should always scan it with an antivirus software before opening it to keep your system secure. 
+	</p>	
+	
+	<p>
+		In a word, by converting pdf to jpeg files, you can view, edit, print and manage your documents on any device easily without installing professional pdf editor or pdf viewer which may cost you much money, viewing files in JPEG format will use less RAM and keep your device more secure, make the pdf more portable, and make your digital life more beautiful.
+</p>
+
+	
+	<h2>How to convert PDF to jpg images on Windows 7, Windows 10, Mac OS X, iPhone, iPad or SamSung Galaxy?</h2>
+	
+	<p>
+		1. Open www.PDFtoJPG.me in your Web browser.
+	</p>		
+	
+	<p>
+		2. Specify the prefix of your output file name.
+	</p>		
+	
+	<p>
+		3. Upload a PDF from your PC or mobile phone.
+	</p>		
+	
+	<p>
+		4. Specify the page range to convert.
+	</p>		
+	
+	<p>
+		5. Set the DPI of your jpeg images, for instance: 150 DPI, 200 DPI, 250 DPI, 300 DPI, 450 DPI, 600 DPI, 900 DPI, 1200 DPI, 1500 DPI, 1800 DPI, 2100 DPI, 2400 DPI, or the image resolution that fit to your device( Windows, Mac, iPhone, iPad, Samsung GALAXY S5, Samsung GALAXY Note 4, etc. ) display, for example: 1366x768, 1920x1080, 1600x900, 1280x800, 1440x900, 1280x1024, 1680x1050, 1024x768, 640x1136, 2560x1440, 1920x1200, 2560x1600, 360x640, 2880x1800, 1360x768, 1280x720, 750x1334, 1536x2048, 1536x864, 768x1024, 1280x768, 1024x600, 800x600, 2560x1080, 5120x2880 pixels.
+	</p>			
+	
+	<p>
+		6. Press the "Convert Now" button to begin conversion, wait for a few seconds, then download your jpeg images.
+	</p>			
+	
+	<h2>I purchased something on the Web and the seller sent me an invoice in PDF format, but I can't view it on my device.</h2>	
+	
+	<p>
+		If you want to view the pdf document or print it out, but you don't have a freeware or app that supports this format, then you can simply convert the pdf to jpg online, no need to download, buy or install any software.
+	</p>		
+	
+
+	
+</div>
+</div>
+
+
+
+<div id="foot">
+	
+	<div id="foot_text">
+		<div class="foot_line">Copyright &copy; 2015 - 2022 &nbsp; <a href="index.html" title="PDF to JPG" target="_blank">PDFtoJPG.me</a> &nbsp;  All Rights Reserved</div>
+	
+		<div class="foot_line">
+		
+			<a href="http://passwordsgenerator.net/" title="Password Generator" target="_blank">Password Generator</a>&nbsp;&nbsp;
+			<a href="http://gifmaker.me/" title="GIF Maker" target="_blank">GIF Maker</a>&nbsp;&nbsp;
+			<a href="http://resizeimage.net/" title="Photo Resizer" target="_blank">Image Resizer</a>&nbsp;&nbsp;
+			
+	<a href="https://www.adobe.com/acrobat/online/merge-pdf.html" target="_blank">Merge PDF</a>&nbsp;&nbsp;
+	<a href="https://www.freepdfconvert.com/pdf-to-word" target="_blank">PDF to Word</a> &nbsp;&nbsp;
+	<a href="https://www.freepdfconvert.com/jpg-to-pdf" target="_blank">JPG to PDF</a> 		&nbsp;&nbsp;		
+			
+			
+			<a href="http://compressimage.toolur.com/" target="_blank">Image Compressor</a>&nbsp;&nbsp;
+			
+			<a href="http://icoconvert.com/" title="ICO Converter" target="_blank">ICO Convert</a>&nbsp;&nbsp;
+			
+		</div>
+	</div>
+	
+</div>
+
+
+<script type="text/javascript" src="js/main592e.js?ver=3"></script>
+
+<div style="clear:both"></div>
+
+﻿<!-- Piwik --><script type="text/javascript">  var _paq = _paq || [];  _paq.push(['trackPageView']);  _paq.push(['enableLinkTracking']);  (function() {    var u="http://vpnur.com/stat/";    _paq.push(['setTrackerUrl', u+'piwik.php']);    _paq.push(['setSiteId', 5]);    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);  })();</script><noscript><p><img src="http://vpnur.com/stat/piwik.php?idsite=5" style="border:0;" alt="" /></p></noscript><!-- End Piwik Code -->
+
+</body>
+
+<!-- Mirrored from pdftojpg.me/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Mar 2022 19:07:43 GMT -->
+</html>
